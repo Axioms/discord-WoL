@@ -1,0 +1,13 @@
+[Unit]
+Description=Execute the computer starter discord bot.
+
+[Service]
+User=nobody
+Group=nobody
+WorkingDirectory=/path/to/repo
+ExecStart=node main.js
+Restart=always
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,16 @@
+{
+  "name": "computer-starter",
+  "version": "2.0.0",
+  "description": "starts your computer!",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "axioms",
+  "license": "ISC",
+  "dependencies": {
+    "discord-reply": "^0.1.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^10.0.0"
+  }
+}
