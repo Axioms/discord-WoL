@@ -55,8 +55,8 @@
   > sudo apt install curl
   > curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash  
   > source ~/.bashrc  
-  > nvm install 17
-  > nvm use 17
+  > nvm install 17   
+  > nvm use 17   
 
  </details>
 
